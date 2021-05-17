@@ -1,0 +1,32 @@
+.adress {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    font-style: normal;
+
+    &__list {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    &__link {
+        text-decoration-line: none;
+        color: #fff;
+        padding: auto;
+        text-decoration-line: none;
+        list-style: none;
+        flex-wrap: nowrap;
+
+        &:focus,
+        &:hover {
+            color: getColor('accent');
+        }
+
+        &--opacity {
+            opacity:0.6;
+        }
+
+    }
+
+}
