@@ -1,25 +1,30 @@
-@import "base/colors";
-@import "base/font";
+@import "utils/colors";
+@import "utils/font";
+@import "utils/is-hidden";
+@import "utils/visually-hidden";
 
-@import "layout/main/body";
-@import "layout/main/header";
-@import "layout/index/hero";
-@import "layout/index/atuts";
-@import "layout/index/about-us";
-@import "layout/index/team";
-@import "layout/index/clients";
-@import "layout/main/footer";
-@import "layout/index/modal";
-@import "layout/portfolio/portfolio";
+@import "base/container";
+@import "base/body";
 
-@import "components/container";
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/index/hero";
+@import "pages/index/atuts";
+@import "pages/index/about-us";
+@import "pages/index/team";
+@import "pages/index/clients";
+
+@import "pages/index/modal";
+
+@import "pages/portfolio/filtr";
+@import "pages/portfolio/carts";
+
 @import "components/logo";
 @import "components/menu";
-@import "components/contakt";
-@import "components/secundary-title";
+@import "components/contact";
+@import "components/secondary-title";
 @import "components/tertiaty-title";
 @import "components/adress";
 @import "components/join-us";
 @import "components/newsletter";
-@import "components/is-hidden";
-@import "components/visually-hidden";

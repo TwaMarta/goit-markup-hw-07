@@ -1,0 +1,47 @@
+.hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/index/poster/poster_bg.jpg");
+  background-color: getColor("secondary");
+  height: 600px;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    width: 696px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    text-transform: uppercase;
+    padding-top: 200px;
+    margin: 0px;
+  }
+
+  &__button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+    background-color: getColor("accent");
+    margin-top: 150px;
+
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+  &__title,
+  &__button {
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0.06;
+  }
+}

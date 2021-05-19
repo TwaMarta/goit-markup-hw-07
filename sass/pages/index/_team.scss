@@ -1,0 +1,72 @@
+.team {
+  justify-content: space-between;
+  background-color: getColor("backfround-tertiary");
+  height: 708px;
+  width: 1600px;
+
+  & .secondary-title {
+    padding-top: 94px;
+  }
+
+  & &__list {
+    list-style: none;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 270px;
+    height: 428px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  &__name {
+    font-weight: 500;
+    margin-top: 30px;
+  }
+
+  &__profession {
+    color: getColor("secondary");
+    margin-bottom: 10px;
+  }
+
+  &__profession,
+  &__name {
+    font-size: 16px;
+    line-height: 1.186em;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  &__social {
+    display: flex;
+    margin-top: 16px;
+    list-style: none;
+    width: 206px;
+  }
+
+  &__link {
+    width: 44px;
+    height: 44px;
+    fill: #afb1b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover,
+    &:focus {
+      fill: #fff;
+      background-color: getColor("accent");
+      border-radius: 50%;
+    }
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
